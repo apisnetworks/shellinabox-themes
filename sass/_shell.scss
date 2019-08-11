@@ -74,7 +74,7 @@
 		z-index: 1;
 
 		border-radius: 1px;
-		transition: background .5s, color .5s;
+		transition: background .25s, color .25s;
 
 		&.bright {
 			background: $cursor-bg;
@@ -132,6 +132,7 @@
 				margin: 0px;
 				padding: ($menu-pad-v / 2) 0px;
 				min-width: 10em;
+				color: #333;
 			}
 
 			li {

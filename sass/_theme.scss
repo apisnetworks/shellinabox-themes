@@ -23,6 +23,7 @@
 		@include ansiDef($vt-color, transparent /*$vt-bg*/);
 
 		#scrollable {
+			padding: 0.25rem;
 			&.inverted {
 				@include __($vt-inverted-color, $vt-inverted-bg);
 				@include ansiDef($vt-inverted-color, $vt-inverted-bg);
